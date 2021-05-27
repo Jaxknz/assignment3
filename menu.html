@@ -6,44 +6,45 @@
         <meta charset = "utf-8">
         <html lang = "en">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">  
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <!--<link rel="stylesheet" href="style.css">  -->
     </head>
     <body>
-        <div class ="header">
+        <header class ="w3-container w3-grey">
             <h1>Haukai Restaurant </h1>
-        </div>
+        </header>
         <!-- Navigtion links-->
-        <div class = "nav">
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="hours.html">Hours</a></li>
-                <li><a class="active" href="menu.html">Menu</a></li>
-                <li><a href="reservations.html">Reservations</a></li>
-                <li><a href="private/staff.html">Staff only</a></li>
-              </ul>
-        </div>
+        <nav class = "w3-bar w3-black">
+
+                <a class="w3-bar-item w3-button" href="home.html">Home</a>
+                <a class="w3-bar-item w3-button" href="contact.html">Contact</a>
+                <a class="w3-bar-item w3-button" href="hours.html">Hours</a>
+                <a class="w3-bar-item w3-button" href="menu.html">Menu</a>                
+                <a class="w3-bar-item w3-button" href="reservations.html">Reservations</a>
+                <a class="w3-bar-item w3-button" href="private/staff.html">Staff only</a>
+            
+            </nav>
         <!--Body with images and menu-->
-        <div class = "body">
-             <div class = "image">
+        <main class = "w3-container w3-grey w3-padding">
+             <div class = "w3-third">
             <img src = "images/homeimage.jpg" alt = "Restaurant image" width ="400px" ><br><br>
             <img src = "images/wine.jpg" alt = "Restaurant image" width ="400px" ><br><br>
             <img src = "images/plates.jpg" alt = "Restaurant image" width ="400px" ><br><br>
             <img src = "images/lamb.jpg" alt = "Restaurant image" width ="400px" ><br><br>
             <img src = "images/desert.jpg" alt = "Restaurant image" width ="400px" ><br><br>
             </div>
-            <div class = "content">
+            <div class = "w3-third">
                 <div class = "menu">
                     <!--Embeds menu pdf-->
                 <embed src="menu.pdf#toolbar=0"  width="800px" height="3100px" scrolling ="no" />
                 </div>
                         </div>
 
-        </div>
+                    </main>
 <!--Footer of webpage-->
-        <div class = "footer">
+        <footer class = "w3-container w3-black">
             Haukai Restaurant
-        </div>
+        </footer>
         
     </body>
   </html>

@@ -6,8 +6,8 @@
         <meta charset = "utf-8">
         <html lang = "en">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://wwww.w3schools.com/w3css/4/w3.css">
-        <link rel="stylesheet" href="style.css">   
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+       <!---- <link rel="stylesheet" href="style.css"> -->  
         <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-CW6PFMEFJD"></script>
 <script>
@@ -21,24 +21,27 @@
     <body>
         <header class ="w3-container w3-grey">
             <h1>Haukai Restaurant </h1>
-        </div>
+        </header>
         <!-- Navigtion links-->
-        <nav class = "w3-container w3-brown">
-            <ul>
-                <li><a class="active" href="home.html">Home</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="hours.html">Hours</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="reservations.html">Reservations</a></li>
-                <li><a href="private/staff.html">Staff only</a></li>
-              </ul>
-        </div>
+        <nav class = "w3-bar w3-black">
+
+                <a class="w3-bar-item w3-button" href="home.html">Home</a>
+                <a class="w3-bar-item w3-button" href="contact.html">Contact</a>
+                <a class="w3-bar-item w3-button" href="hours.html">Hours</a>
+                <a class="w3-bar-item w3-button" href="menu.html">Menu</a>                
+                <a class="w3-bar-item w3-button" href="reservations.html">Reservations</a>
+                <a class="w3-bar-item w3-button" href="private/staff.html">Staff only</a>
+            
+            </nav>
         <!--Body with privacy statment and image-->
-        <div class = "body">
-             <div class = "image">
-            <img src = "images/homeimage.jpg" alt = "Restaurant image" width ="400px" >
-            </div>
-            <div class = "content">
+        <main class = "w3-container w3-grey w3-padding">
+             <div class = "w3-row-padding">
+                 <div class="w3-third">
+            <img src = "images/homeimage.jpg" alt = "Restaurant image" width ="400px" class="w3-round w3-padding" >
+        </div>
+                    
+
+            <div class = "w3-third">
                 <h2>Privacy Statement 1</h2><br>
                 We collect personal information from you, including information about your:
                 <ol>
@@ -55,14 +58,15 @@
 
                 You have the right to ask for a copy of any personal information we hold about you, and to ask for it to be corrected if you think it is wrong. If you’d like to ask for a copy of your information, or to have it corrected, please contact us at haukairesturant@gmail.com.
 
-
-                        </div>
-
+            </div>
         </div>
+            </main>
+
+
         <!--Footer of webpage-->
-        <div class = "footer">
+        <footer class = "w3-container w3-black">
             Haukai Restaurant
-        </div>
+        </footer>
         
     </body>
   </html>
